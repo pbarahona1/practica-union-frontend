@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import CartOrderMegaPaca from "./pages/CartController";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
