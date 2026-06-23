@@ -1,7 +1,8 @@
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 
-export function UseAuth() {
+// 1. Cambiar a 'useAuth' con 'u' minúscula aquí:
+export function useAuth() {
   const context = useContext(AuthContext);
 
   if (!context) {
@@ -11,4 +12,5 @@ export function UseAuth() {
   return context;
 }
 
-export default UseAuth;
+// 2. Cambiar a 'useAuth' con 'u' minúscula aquí también:
+export default useAuth;
