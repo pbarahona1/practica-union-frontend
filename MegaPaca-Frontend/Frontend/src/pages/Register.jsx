@@ -4,7 +4,7 @@ import { useAuth } from "../hooks/UseAuth";
 
 const initialForm = {
   name: "",
-  lastName: "",
+  lastName: "",  
   birthdate: "",
   email: "",
   password: "",

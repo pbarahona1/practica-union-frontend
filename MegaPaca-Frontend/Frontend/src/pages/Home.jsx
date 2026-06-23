@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { useAuth } from "../hooks/useAuth";
-import { useCart } from "../hooks/useCart";
+import { useAuth } from "../hooks/UseAuth";
+import { useCart } from "../hooks/UseCart";
 
 function Home() {
   const { isAuthenticated, user } = useAuth();

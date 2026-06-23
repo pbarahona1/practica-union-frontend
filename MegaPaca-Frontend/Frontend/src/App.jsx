@@ -1,5 +1,4 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import PrivateRoute from "./components/PrivateRoute";
 import NavBar from "./components/NavBar";
 import CartOrderMegaPaca from "./pages/CartController";
 import Home from "./pages/Home";

@@ -1,6 +1,6 @@
 import { NavLink, Link, useNavigate } from "react-router-dom";
-import { useAuth } from "../hooks/useAuth";
-import { useCart } from "../hooks/useCart";
+import { useAuth } from "../hooks/UseAuth";
+import { useCart } from "../hooks/UseCart";
 
 const baseLinkClass =
   "rounded-full px-4 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2 focus:ring-offset-white";
